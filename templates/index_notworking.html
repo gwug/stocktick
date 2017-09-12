@@ -19,9 +19,11 @@
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-  	<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.7.min.css" type="text/css">
-  	{{script|safe}}
+  
+    <script type="text/javascript" src="http://cdn.pydata.org/bokeh/release/bokeh-0.12.0.min.js"></script>
+    
+    {{ script | safe }}
+  
   </head>
   <body>
   	 <nav class="navbar navbar-expand navbar-dark bg-dark">
@@ -55,10 +57,12 @@
         
         </form>
     </div>
-	  <div class="col-lg-9 ml-1 mx-auto mt-3" id="graph-div">
-          <div class="container">
-            {{div|safe}}
-          </div>
+	<div class=page>
+		<h1>Header text</h1>
+		
+		{{ div | safe }}
+	</div>
+      
       </div>
     </div>
     
