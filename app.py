@@ -1,5 +1,4 @@
 from flask import Flask, render_template, request, redirect
-import Quandl as quandl
 import requests
 import pandas as pd
 from bokeh.plotting import figure, output_file, show
