@@ -20,7 +20,6 @@ def fcn():
 def index():
 	
 	# Make api call
-	#stock=
 	stock=request.form['tsym']
 	
 	# Make api call
